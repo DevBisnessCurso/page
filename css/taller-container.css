@@ -1,0 +1,30 @@
+.submenu-link-aside:target h1{
+    padding-top: var(--header-height);
+}
+.title-body-aside{
+    margin-top: -3.1rem;
+    padding-top: 4.6rem;
+    margin-bottom: 0;
+}
+.total-views-page{
+    font-weight: 600;
+    color: var(--text-muted);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--border-color);
+    padding: 0.2rem;
+    border-radius: .3rem;
+    width: 150px;
+}
+.update-text-scrolling{
+    margin-right: 0.2rem;
+}
+.scroll-progressbar-taller{
+    font-weight: 700;
+    min-width: 35px;
+    display: block;
+    overflow: hidden;
+    min-height: 18px;
+}
