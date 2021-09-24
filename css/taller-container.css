@@ -1,6 +1,3 @@
-.submenu-link-aside:target h1{
-    padding-top: var(--header-height);
-}
 .title-body-aside{
     margin-top: -3.1rem;
     padding-top: 4.6rem;
@@ -27,4 +24,46 @@
     display: block;
     overflow: hidden;
     min-height: 18px;
+}
+.warning-card{
+    background-color: rgba(255,229,100,.3);
+    color: #6b5900;
+    border-left: .5rem solid #e7c000;
+    padding: .1rem 1.5rem;
+}
+.title-warning-card{
+    margin: 0;
+    padding-top: 0.4rem;
+    color: #b29400;
+    font-weight: 600;
+}
+.container-iframe-code{
+    overflow-x: scroll;
+    background-color: var(--bg-dark-off);
+    padding: 1rem;
+    border-radius: .5rem;
+    user-select: text;
+    box-shadow: var(--box-shadow);
+    margin-top: 0.7rem;
+    height: 300px;
+}
+.container-iframe-code::-webkit-scrollbar{
+	height: 7px;
+	width: 7px;
+	background-color: rgba(0,0,0,.2);
+    cursor: pointer;
+}
+.container-iframe-code::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(27, 38, 44,.1);
+	box-shadow: inset 0 0 6px rgba(27, 38, 44,.1);
+    background-color: rgba(255,255,255,.1);
+	border-right: 10px solid rgba(27, 38, 44,.1);
+}
+.container-iframe-code::-webkit-scrollbar-thumb:hover,
+.container-iframe-code::-webkit-scrollbar-thumb:active {
+  background-color: var(--border-color-alt);
+}
+.code-light{
+    color: var(--bg-light);
 }
