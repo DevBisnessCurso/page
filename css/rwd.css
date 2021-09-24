@@ -29,6 +29,9 @@
         max-width: 400px;
         box-shadow: var(--box-shadow);
     }
+    .container-iframe-code{
+        max-width: 400px;
+    }
 }
 @media screen and (min-width:1024px) {
     .container,
@@ -49,6 +52,9 @@
         -moz-box-align: end;
         align-items: flex-end;
         align-content: flex-end;
+    }
+    .container-iframe-code{
+        max-width: 100%;
     }
 }
 @media screen and (min-width:1440px){
