@@ -91,6 +91,7 @@
     align-items: center;
     overflow: hidden;
     position: relative;
+    border: 1px solid var(--border-color);
 }
 .conten-teacher-aside::before{
     content: "";
