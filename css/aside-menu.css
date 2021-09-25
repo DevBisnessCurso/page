@@ -21,6 +21,7 @@
     background-color: rgba(0,0,0,.3);
     width: 100%;
     right: -100%;
+    z-index: var(--z-modal);
 }
 .nav-aside{
     position: absolute;
@@ -28,7 +29,24 @@
     height: 100%;
     background-color: var(--bg-light);
     width: 80%;
-    padding: 1rem .5rem;
+    padding: 1rem .5rem 5rem .5rem;
+    overflow-y: scroll;
+}
+.nav-aside::-webkit-scrollbar{
+	width: 5px;
+	background-color: rgba(0,0,0,.04);
+    cursor: pointer;
+}
+.nav-aside::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(27, 38, 44,.05);
+	box-shadow: inset 0 0 6px rgba(27, 38, 44,.05);
+    background-color: rgba(255,255,255,.05);
+	border-right: 10px solid rgba(27, 38, 44,.05);
+}
+.nav-aside::-webkit-scrollbar-thumb:hover,
+.nav-aside::-webkit-scrollbar-thumb:active {
+  background-color: var(--bg-dark-off);
 }
 .aside-open{
     right: 0;
@@ -62,6 +80,31 @@
     border-top: 1px solid var(--border-color);
     height: auto;
     padding: 0.9rem;
+}
+.conten-teacher-aside{
+    margin-bottom: 1rem;
+    border: 1px solid var(--border-color);
+    padding: 0.4rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    align-items: center;
+}
+.img-avatar-aside-teacher{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid var(--border-color);
+    background-color: var(--bg-light);
+}
+.name-aside-teacher{
+    color: var(--bg-dark-off);
+}
+.profesion-aside-teacher{
+    color: var(--text-menu);
+    font-size: .70rem;
 }
 @media screen and (min-width:640px) {
     .aside-action{
