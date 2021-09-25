@@ -86,7 +86,7 @@
     border: 1px solid var(--border-color);
     padding: 0.4rem;
     border-radius: .5rem;
-    box-shadow: var(--box-shadow);
+    box-shadow: 0 0 5px rgba(0,0,0,.04);
     display: grid;
     grid-template-columns: 60px 1fr;
     align-items: center;
