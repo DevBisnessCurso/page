@@ -16,7 +16,7 @@
     padding: 0.5rem 1rem;
     cursor: pointer;
     margin-right: 1rem;
-    background-color: rgba(0,0,0,.02);
+    background-color: var(--bg-light);
     color: var(--text-menu);
     transition: all .2s ease-in-out;
 }
@@ -158,4 +158,16 @@
     height: 12px;
     margin-right: .5rem;
     fill: var(--bg-primary);
+}
+.content-in-proccess{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 400px;
+    text-align: center;
+}
+.content-in-proccess img {
+    width: 150px;
+    margin-bottom: 1rem;
 }

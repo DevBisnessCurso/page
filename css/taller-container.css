@@ -37,6 +37,18 @@
     color: #b29400;
     font-weight: 600;
 }
+.danger-card{
+    background-color: rgba(255, 100, 100, 0.3);
+    color: #6b0000;
+    border-left: .5rem solid #ff5454;
+    padding: .1rem 1.5rem;
+}
+.title-danger-card{
+    margin: 0;
+    padding-top: 0.4rem;
+    color: #b20000;
+    font-weight: 600;
+}
 .container-iframe-code{
     overflow-x: scroll;
     background-color: var(--bg-dark-off);
