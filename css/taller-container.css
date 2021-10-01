@@ -83,12 +83,12 @@
 .aviso-envivo{
     font-size: .70rem;
     text-transform: uppercase;
-    font-weight: 600;
-    background-color: var(--bg-danger);
+    font-weight: 700;
+    background-color: var(--border-color);
     display: inline-flex;
     padding: 0.3rem;
     border-radius: 5px;
-    color: var(--text-light);
+    color: var(--text-primary);
     position: absolute;
     top: .6rem;
     left: .6rem;
@@ -98,7 +98,7 @@
     content: "";
     width: 70px;
     height: 100%;
-    background:linear-gradient(-90deg,transparent,#d4868bbb,transparent );
+    background:linear-gradient(-90deg,transparent,#ffffffbb,transparent );
     position: absolute;
     top: 0;
     left: -100%;
