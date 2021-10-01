@@ -54,6 +54,7 @@
 }
 
 /* SMALL (sm) FIRST 00PX */
+
 .s-grid-1{
     grid-template-columns: repeat(1fr);
 }
@@ -71,6 +72,11 @@
 }
 .s-grid-6{
     grid-template-columns: repeat(1fr);
+}
+.cross-center-small{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .s-sticky-05,
 .md-sticky-05,
