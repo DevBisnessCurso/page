@@ -80,3 +80,50 @@
     color: rgba(255,255,255,.8);
     font-family: sans-serif;
 }
+.aviso-envivo{
+    font-size: .70rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: var(--bg-danger);
+    display: inline-flex;
+    padding: 0.3rem;
+    border-radius: 5px;
+    color: var(--text-light);
+    position: absolute;
+    top: .6rem;
+    left: .6rem;
+    overflow: hidden;
+}
+.aviso-envivo::before{
+    content: "";
+    width: 70px;
+    height: 100%;
+    background:linear-gradient(-90deg,transparent,#d4868bbb,transparent );
+    position: absolute;
+    top: 0;
+    left: -100%;
+    animation: animateLive 1.25s infinite linear;
+}
+@keyframes animateLive {
+    0%{
+        left: 0;  
+    }
+    100%{
+        left: 100%;
+    }
+}
+.warning-content{
+    min-height: 100vh;
+    background-color: var(--bg-dark);
+    display: flex;
+    align-items: end;
+}
+.warning-description-course{
+    position: absolute;
+    top: 35%;
+    transform: translateY(-65%);
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: rgba(255,255,255,.7);
+    text-align: center;
+}

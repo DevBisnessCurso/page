@@ -56,6 +56,13 @@
     .container-iframe-code{
         max-width: 100%;
     }
+    .warning-description-course{        
+        right: 4rem;
+        max-width: 750px;
+        top: 40%;
+        transform: translateY(-60%);
+        text-align: left;
+    }
 }
 @media screen and (min-width:1440px){
     .l-container{

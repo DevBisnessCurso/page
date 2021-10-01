@@ -51,6 +51,9 @@
 }
 .card-img-container{
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .card-poster{
     transition: all .25s;
