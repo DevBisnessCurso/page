@@ -39,7 +39,7 @@
         padding: 2rem 5rem;
     }
     .taller-card {
-        grid-template-columns: 180px 1fr;
+        grid-template-columns: 180px 1fr;        
     }
     .photo-container{        
         border-radius: .5rem 0 0 .5rem;

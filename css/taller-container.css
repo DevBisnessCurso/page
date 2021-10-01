@@ -127,3 +127,6 @@
     color: rgba(255,255,255,.7);
     text-align: center;
 }
+.taller-card{
+    border-radius: .5rem;
+}
