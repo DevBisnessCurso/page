@@ -130,3 +130,10 @@
 .taller-card{
     border-radius: .5rem;
 }
+.color-danger-live{
+    color: var(--text-light);
+    background-color: var(--bg-danger);
+    display: inline-block;
+    border-radius: .5rem;
+    padding: 0 .3rem;
+}
